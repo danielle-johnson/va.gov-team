@@ -11,7 +11,7 @@ An oppurtunity now exists to revisit the benefit hubs and flatten much needed IA
 Optimize user flows and conversion paths on benefit hub pages to:
   
 1. Help increase account creation; online application submissions; sign in’s to manage benefits or top tasks
-2. Optimize templatize benefit hubs for optimized conversion paths to tools and apps (Does the original Benefit Hub templates optimize pathways for veterans to find, complete and track benefits?).  
+2. Optimize templatize benefit hubs for best-path for conversion tools and apps (Does the original Benefit Hub templates optimize pathways for veterans to find, complete and track benefits?).  
 
 Optimize user navigation funnels from benefit hub to Tier 1 spoke/benefit action:
 
@@ -76,7 +76,7 @@ Focus Area: Benefit Hubs
 ### Assumptions/Risks
 
 - **Value Risks** (will people use it): 
-  - There is measurable value to Veterans as we are replacing "content roadblocks" and "content spirals" caused on mega menu with a clear navigational path that increased conversion rates for Tier 1 benefit actions. 
+  - There is measurable value to Veterans as we are replacing "content roadblocks" and "content spirals" caused on mega menu with a clear navigational path that increases conversion rates for Tier 1 benefit actions. 
 - **Usability Risks** (can people figure out how to use it):
   -  Only 2% of users were clicking on the right rail navigation because for most users(on desktop, tablet, and mobile), media queries forced that section to the bottom of the page, even on desktop.
   -  Mega Menu is too exstensive and not "straightforward" leading Veterans down content spirals and not down the intended "direct paths" for service completion tasks. 
@@ -88,7 +88,6 @@ Focus Area: Benefit Hubs
 
 ### Solution Scope
 **In Scope**
-- Home Page (Top 4 funnel)
 - Mega Menu 
 - left hand nav slim down - Benefit hub funnels 
 - Content shift - Benefit hubs to R&S

@@ -1,13 +1,13 @@
 # VA Online Scheduling
-VA online scheduling (VAOS) is a Veteran-facing healthcare appointment online scheduling tool on VA.gov.
+VA online scheduling (VAOS) is a Veteran-facing healthcare appointment scheduling tool on VA.gov.
 
 ## About the Product
 
-### North Star
+### Vision
 Deliver a seamless and positive experience for any Veteran who wants to schedule an appointment online.
 
 ### User Problem Statement
-A very small percentage of veteran appointments with VA Medical Centers are scheduled online. Other avenues for scheduling appointments like phone, secure messaging, reminder letters, and return to clinic orders can lead to clerical errors, miscommunications, and heavier burden for schedulers. These issues cause delays in scheduling care and are frustrating for veterans.
+A very small percentage of Veteran appointments with VA Medical Centers are scheduled online. Other avenues for scheduling appointments like phone, secure messaging, reminder letters, and return to clinic orders can lead to clerical errors, miscommunications, and a heavier burden for schedulers. These issues cause delays in scheduling care and are frustrating for Veterans.
 
 ## About the Team
 
@@ -45,9 +45,9 @@ A very small percentage of veteran appointments with VA Medical Centers are sche
 
 ## What We're Working On
 
-- COVID-19 vaccine scheduling
 - [VAOS homepage refresh](https://github.com/department-of-veterans-affairs/va.gov-team/blob/48097f1c1a996bbfde3f937e6591bf0f5ec05250/products/health-care/appointments/va-online-scheduling/initiatives/homepage-refresh/homepage-refresh-initiative-2021.md)
 - Integration with VAMF vaos-service
+- Appointment notifications
 
 ## Product Documentation
 - [Roadmap](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/health-care/appointments/va-online-scheduling/vaos-fe-roadmap.md)

@@ -5,6 +5,13 @@ This folder contains documentation for larger-scale projects. Below is a timelin
 
 ### 2021
 
+**July**
+- July 20, 2021 - Homepage Refresh launch
+
+**June**
+- June 30, 2021 - Homepage Refresh staged rollout starts
+- June 9, 2021 - COVID-19 vaccine scheduling flow moved to sustainment
+
 **April**
 - April 26, 2021 - Community Care provider selection MVP launch
 

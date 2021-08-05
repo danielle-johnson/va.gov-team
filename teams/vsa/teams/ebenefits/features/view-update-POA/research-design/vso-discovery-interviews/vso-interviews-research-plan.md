@@ -4,11 +4,6 @@
 `Candy Clark, researcher`
 
 ---
-#### Questions
-- Will Perigean be scheduling these since participants are not necessarily veterans?
-- Is there a typical number of participants for discovery? Is audio only typical, or was that something specific for the COE example?
-- Will there be a tool for VSOs on va.gov, or is the info gathered here wrapped into the veteran’s tool?
----
 
 #### Background
 Establishing benefits and claims with the VA can be a lengthy and complicated process. The VA's Office of General Counsel has a list of accredited or certified individuals or groups (Veterans Service Organizations or Veterans Service Officers, VSO) that are best qualified to help Veterans in various tasks. Form 21-22/a allows users to appoint a VSO to represent them  to the VA.
@@ -31,10 +26,8 @@ The primary goal of this research is to understand how the representation/Power 
 - How long do appointments last?
 - When do appointments end? At the end of a claims process? After a certain amount of time?
 
-#### Hypotheses
-
 ### Method
-We will engage in moderated discovery interviews conducted remotely. Calls will be run using Zoom, but audio only -- there will be no video component or screen-sharing. Participants with experience applying for VA-backed loans will be recruited by Perigean. Sessions will be recorded (with permission), and observers may be in attendance.
+We will engage in moderated discovery interviews conducted remotely. Calls will be run using Zoom, but audio only -- there will be no video component or screen-sharing. Participants with experience applying for VA-backed loans will be recruited through internal VA contacts. We are currently working with Paul Shute and Bill Meadows. Sessions will be recorded (with permission), and observers may be in attendance.
 
 #### The process
 - There will be a quick warm-up and introduction to the discovery interview process
@@ -42,7 +35,7 @@ We will engage in moderated discovery interviews conducted remotely. Calls will 
 - There will be a quick Q/A and wrap-up
 
 #### Notetaking
-We request that Perigean take notes -- verbatim if possible --  during interviews.
+Notes will be taken by the eBenefits team.
 
 ### Participants and recruitment
 
@@ -51,15 +44,18 @@ Recruit for 5 fulfilled sessions using the following criteria:
 **Principal participant criteria/question**
 - Are you an accredited representative with a Veterans Service Organization? (pass = yes)
 
-**Must have for participants**
+<!-- **Must have for participants**
 - At least 1 representative from a federally-chartered VSO
 - At least 1 representative from a VSO that is not federally chartered
 - At least 1 woman of color
 - At least 1 participant 55 or older
 - At least one person that does not have a college degree (to include enlisted Veterans)
-- At least one person with a disability rating of 80% or greater
+- At least one person with a disability rating of 80% or greater --> 
 
 **Good to have for participants**
+- At least 1 representative from a federally-chartered VSO
+- At least 1 representative from a VSO that is not federally chartered
+- At least 1 woman of color
 - At least 1 participant 35 or under and 1 participant over 55
 - At least one person that has a college degree (to include of officer Veterans)
 - At least one person who lives in a major metropolitan area
@@ -78,15 +74,20 @@ Recruit for 5 fulfilled sessions using the following criteria:
 
 #### eBenefits Team Availability
 
-Please allow 30 minutes between sessions.
+We are targeting July 21 - August 3, subject to VSO availablilty.
 
 | Dates | Times (EDT) |
 | --- | --- |
-| -  | 9 AM to 5 PM |
-| -  | 9 AM to noon |
-| -  | 9 AM to 5 PM |
-| -  | 9 AM to 5 PM |
-| -  | 9 AM to 5 PM |
+| Wednesday, July 21  | 9:30 AM to noon |
+| Thursday, July 22  | 9:30 AM to 6 PM |
+| Friday, July 23  | 9:30 AM to 6 PM |
+| Monday, July 26  | 9:30 AM to 6 PM |
+| Tuesday, July 27  | 9:30 AM to noon |
+| Wednesday, July 28  | 9:30 AM to noon |
+| Thursday, July 29  | 9:30 AM to 6 PM |
+| Friday, July 30  | 9:30 AM to 6 PM |
+| Monday, August 2  | 9:30 AM to 6 PM |
+| Tuesday, August 3  | 9:30 AM to 6 PM |
 
 ### Team members
 - James Adams | jadams@governmentcio.com -- Moderator, designer
@@ -98,14 +99,13 @@ Please allow 30 minutes between sessions.
 - Jesse Cohn | jesse.cohn@adhocteam.us -- Frontend engineer
 - Matt Self | matt.self2@va.gov -- Product Co-Owner
 - Sabrina Mohamed | sabrina.mohamed@va.gov -- Product Co-Owner
-- VA contacts
-- Perigean -- Participant recruiting & screening
+- `VA contacts`
 - Note-takers -- Various as available
 - Observers -- various as available
 - Others -- Pending
 
 ### Resources
-- [Conversation guide](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/teams/vsa/teams/ebenefits/features/view-update-POA/research-design/VSO_interviews_conversation_guide.md)
+- [Conversation guide](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/teams/vsa/teams/ebenefits/features/view-update-POA/research-design/vso-discovery-interviews/vso-interviews-convo-guide.md)
 
 - [Session notes]() (Available at conclusion of research.)
 

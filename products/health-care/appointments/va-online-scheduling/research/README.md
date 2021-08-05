@@ -2,11 +2,14 @@
 
 ## Upcoming
 
-Appointments notifications service map.
+Appointments notifications service map. - [Research folder](https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/health-care/appointments/va-online-scheduling/research/appt-notifications-service-map)
 
 ## 2021 Studies
 
 May/June - [Facilities personalization research](https://github.com/department-of-veterans-affairs/va.gov-team/tree/master/products/health-care/appointments/va-online-scheduling/research/may-2021-facilities-personalization-research)
+
+* _Preferences when choosing a facility, Personalization/automation, Preferred scheduling and appt management tools, Calling VA, Wayfinding VAOS <-> Profile, Traveling veterans_
+
 
 February - [VAOS for vaccine distribution](https://github.com/department-of-veterans-affairs/va.gov-team-sensitive/tree/master/products/health-care/covid-vaccine-distro/scheduling/research/feb-2021-vaos-vaccine-concept-test)
 

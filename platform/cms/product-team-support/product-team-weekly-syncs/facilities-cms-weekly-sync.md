@@ -23,6 +23,131 @@
 
 </details>
 
+## August 4
+
+**VAMC**
+* Followups to broken VAMC Locations List pages
+  * Post mortem
+  * Tech debt/defects related to CMS #1005 (January 2020!) refactoring of List pages.
+    * Automated testing to check Locations List page (not just individual Locations)
+    * Facilities will validate other 5 List pages (Health Services, News releases, Events, Stories, Leadership)
+* Dynamic side nav [##17746](https://github.com/department-of-veterans-affairs/va.gov-team/issues/17746)
+  * Discovery determined this work may be more effort than it is worth
+  * May need to look at creating runbook tracking the individual tasks needed for new/merged faciities?
+  * A CMS-based dynamic approach is blocked by some Accelerated Publishing work. 
+  * Facilities team to log this in the icebox for now
+
+CMS/VAMC/Facilities upgrade team can collaborate on a "how to spin up a VAMC site" runbook
+  * VAMC upgrade team will get ball rolling on this. 
+
+**Vet Centers**
+
+Product iteration, still in ideation:
+* Required Prepare for your visit, eg parking
+* Nationalizing at least one of the Prepare for your visit accordions (what to bring)
+* Required services for Vet Centers
+  * Research happening about whether or not local description should be required to augment national description 
+  * Editors _maybe_ wouldn't be able to remove/delete that service.
+
+
+Meta description for Vet Centers Locations page 
+ * Content input in [comment here on #27812](https://github.com/department-of-veterans-affairs/va.gov-team/issues/27812#issuecomment-891111897)
+ * **CMS team** to audit description and og:description for all content types, current state and what it should be.  
+   * More of a site-wide issue than a Vet Center issue.  
+
+How to direct Vet Centers for facility data changes
+ * Email api@va.gov (current guidelines in CMS UI) or VSSC? 
+ * Decision: continue to email api@va.gov and Lighthouse will respond with instructions
+ * Facilities team can leapfrog Lighthouse with a data call to Vet Centers (other than District 5) by having them review data in Facility Locator, prior to onboarding to CMS. 
+ * Potential editorial experience change: "Once data has changed upstream, it can take up to 48 hours to make its way here." and/or "Requests to change this data take time to process, etc".
+
+Facility status "more info" field
+ * Should CMS harden character count to 300 (instead of soft limit) or should Lighthouse relax their character count?
+ 
+VAMC banner alerts
+ * possibly refactor VAMC product to use the new banner content type and bring in situation updates in a different way. 
+ * should we impose character limits and dismissible by default in the meantime for VAMC banners to match guardrails from new banner alert type?
+
+Emergency communications more generally
+ * what is the right experience for veterans and VAMC editors and how it relates to overall comms
+ * what can go into a bottom of page 
+
+Promotional content
+ * can VAMC leverage https://design.va.gov/components/promo-banners for marketing content like VA Health Chat app (currently a banner alert at https://www.va.gov/wilmington-health-care/) 
+
+
+**Other?**
+* Hardening/engineering sync
+
+
+## July 28
+
+* When to contact Lighthouse vs CMS support
+  * Facility info is incorrect (not when requesting a modification - ie: additional phone number fields, etc)
+  * How to make more clear in the UI
+  * During office hours, Jessica mentioned a specific POC to direct requests but LH has deflected.
+  * Possibly add link to KB article in the CMS UI https://prod.cms.va.gov/node/23533
+* Add address line 2 for CAPs (Suite #, etc)
+  * Dave and Kev may already be in sync on this
+  * Will be FE work to pull in
+  * CMS issue [#5980](https://github.com/department-of-veterans-affairs/va.gov-cms/issues/5980)
+* Remove a Vet Center service is only available to content admin or above
+  * Expectation is that users have the remove ability
+  * CMS team to research what's going on
+  * May need to prevent them from duplicating in a different way
+  * Can wait for now because we're catching before publishing currently
+  * See Slack https://dsva.slack.com/archives/C02730UEZPS/p1627066941051900, editor was able to add duplicate service accordion for military sexual trauma care but unable to remove duplicate, editor didn't have publisher access so couldn't archive it and didn't have a Remove button, so Michelle had to remove the accordion
+* Automate "Nearby Vet Center" list
+  * Section where they declare which ones they want included where users are getting confused
+  * Can we default to everything within an x radius to be included?
+  * VCs have lat/long data so technically possible
+  * What about someone elses CAP? on the fringe between 2 VCs
+    * A: CAPs don't currently have lat/long data so not possible until available; can add once available; address for the CAP isn't always its physical location
+* VAMC: Online scheduling toggle switch should be set to "unknown" or suppress
+  * PAO has control over scheduling availability is disconnected from actual system
+  * Request from Dave to set to "unknown" or suppress so that it doesn't create misperceptions for Veterans; until we land on the source of truth for this data
+* Meta tag question: description
+  * Snippet that google creates when searching for VCs because there's no description tag
+  * Facilities reccommending description meta tag for main page
+  * Would want patterned text
+  * Facilities team has a request currently in for Content Team, once fulfilled the CMS team can prioritize with Dave
+
+## July 21
+
+Mobile VHA
+- [CMS epic-Distinguish mobile VAMC clinics from non-mobile clinics #4743](https://github.com/department-of-veterans-affairs/va.gov-cms/issues/4743)
+- [Facilities epic - Mobile VHA locations #21781](https://github.com/department-of-veterans-affairs/va.gov-team/issues/21781)
+
+Vet Center Location Lists 
+>  District 5 is missing Locations List nodes. there are 70 Vet Centers but only 3 Locations List nodes (the three that were in MVP). We need to create 67, one for each Vet Center.  It wouldn’t take too long to do this manually, maybe 2 hours. But it should be done programatically, since we have to do this for another ~223 in Q4 anyway, which we may as well do now. I believe i did this manually for the first 10 in MVP. We may need to let District 5 editors that they are blocked from adding additional mobile vet centers and nearby vet centers and outstations for now.
+>  CMS issue [#5917](https://github.com/department-of-veterans-affairs/va.gov-cms/issues/5917)
+
+
+Possible
+* Top task hardening
+
+## July 14
+
+Vet Centers
+* MVP launch! 2 today. Waiting on some content for the remaining 8. Reno, Escanaba and one other next. Great Falls, Rochester, and Orlando. 
+* Editorial experience changes by tomorrow for Satellite
+* Some meta tags missing from Drupal, which are in the progress 
+* District 5 timeline
+  * Kickoff July 14/15
+  * Email going out July 16th with review from 
+  * Open office hours Tuesdays 3pm-4pm ET from July 20 to Aug 17. 
+  * Deadline to complete training and load content to CMS August 20. 
+  * Review/feedback ongoing. 
+* Does va.gov GA opt-out affect CMS tracking
+  * [Platform support request](https://dsva.slack.com/archives/CBU0KDSB1/p1626288553111900)   
+
+VAMC
+* Photos on VAMC Stories appear grainy https://github.com/department-of-veterans-affairs/va.gov-team/issues/27280
+* [Additional Info component on VAMC detail pages](https://dsva.slack.com/archives/C01H29ERVJ7/p1626207343227700).
+* Leadership feature flag and other feature flags https://github.com/department-of-veterans-affairs/va.gov-cms/issues/5500
+  * **CMS team issue:** evaluate existing feature flags to see if they can be deleted. 
+
+
 ## July 7
 
 Leadership URLs

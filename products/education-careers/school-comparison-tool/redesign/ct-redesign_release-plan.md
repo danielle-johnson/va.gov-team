@@ -1,6 +1,6 @@
 # Comparison Tool Redesign Release Plan 
 
-## Phase I: moderated production testing (also known as User Acceptance Testing, or UAT)
+## Phase I: User Acceptance Testing (UAT)
 
 ### Planning:
 - Desired date range or test duration: 07/12-07/16
@@ -17,8 +17,23 @@
 - Any UX changes necessary based on the logs, or feedback on user challenges, or VA challenges? yes/no 
 - If yes, what: lorem ipsum
 
-## Phase II: Beta Testing
-Remote unmoderated testing on staging
+## Phase II: Beta Release Testing
+Remote unmoderated testing on staging with survey. 
+
+### Planning:
+- Desired date range or test duration: 
+- Desired number of users: 200? (desktop, mobile)
+- How you'll recruit the right production test users: 
+- How you'll conduct the testing: 
+- How you'll give the test users access to the product in production w/o making it live on VA.gov: 
+
+### Results:
+- Number of users: x
+- Number of bugs identified / fixed: x/x
+- Was the data submitted (if any) easy for VA to process?: yes/no, lorem ipsum
+- Types of errors logged: lorem ipsum
+- Any UX changes necessary based on the logs, or feedback on user challenges, or VA challenges? yes/no 
+- If yes, what: lorem ipsum
 
 ## Phase III: Staged Rollout (also known as unmoderated production testing)
 
@@ -57,8 +72,8 @@ Other exceptions to this requirement can be approved by DEPO VSP leads.
 
 ### Planning
 
-- Desired date range: 08/02 - 08/27
-- How will you make the product available in production while limiting the number of users who can find/access it: \[_lorem ipsum_\]
+- Desired date range: 09/21/21- 10/21/21
+- How will you make the product available in production while limiting the number of users who can find/access it: Feature Flags
 - What metrics-based criteria will you look at before advancing rollout to the next stage ("success criteria")?: \[use your KPIs to help guide this. It could be things like _abandonment rate < 20%_, _reported contact center calls < 2 calls_, _error rate < 5%_, etc.\]
 - Links to dashboard(s) showing "success criteria" metrics: _\[link here\]_
 
@@ -101,7 +116,7 @@ _More stages? Sure! If it makes sense for your product! Plan them out with the s
 ## Go Live!
 
 ### Planning:
-- Desired date: O8/31/2021
+- Desired date: October 2021
 - Post-launch KPI 1: xx lorem ipsum
 - Post-launch KPI 2: xx lorem ipsum
 - Post-launch KPI 3: xx lorem ipsum

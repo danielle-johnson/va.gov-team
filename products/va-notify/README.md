@@ -62,12 +62,12 @@ ________________________________________________________________________________
 ## Pricing
 
 * The **Office of the VA Chief Technology Officer (OCTO)** will pay for the development and maintenance of VA Digital Notifications Ecosystem products (VANotify + VEText).  Also, **OCTO** will pay for AWS infrastructure and operational costs.
-* **VA business lines (outside of OCTO)** will be responsible for funding of digital notifications (email, SMS, or mobile push notifications).  Currently, **VA business lines** can procure AWS credits to fund their digital notifications.  The current cost is **$0.97 per AWS credit**. 
+* **VA business lines (outside of OCTO)** will be responsible for funding of digital notifications (email, SMS, or mobile push notifications).  Currently, **VA business lines** can procure AWS credits to fund their digital notifications.  The current cost is **$0.93 per AWS credit**. 
 
-| Communication Channel      | Unit Price    | Messages per AWS credit |
-|:---------------------------|:--------------|:------------------------|
-| Email                      | $0.0001/email |9700 emails per credit   |
-| SMS [inbound and outbound] | $0.0075/SMS   |129.33 SMSs per credit   |
+| Communication Channel      | Unit Price                                       | Messages per AWS credit                                       |
+|:---------------------------|:-------------------------------------------------|:--------------------------------------------------------------|
+| Email                      | $0.000093/email                                  | 10,000 emails per credit                                      |
+| SMS [outbound and inbound] | $0.0054/SMS [outbound]<br/>$0.0070/SMS [inbound] | 172.22 SMS/credit [outbound]<br/>133.33 SMSs/credit [inbound] |
 
 <br>
 
@@ -102,6 +102,7 @@ ________________________________________________________________________________
 Lighthouse
 * Direct Deposit Email Confirmation - automatically sent when the Veteran updates their direct deposit account information on va.gov.
 * Application Connect & Disconnection from VA account - sent when the Veteran allows an app to access their health information and vice versa on va.gov.
+* VA.gov Authenticated experience - Email confirmation that a veteran has updated their contact information.
 
 
 

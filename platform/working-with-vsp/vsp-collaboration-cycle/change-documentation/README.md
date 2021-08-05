@@ -1,3 +1,13 @@
+# We're moving our docs! 
+
+### You can find [the latest version of this page](https://depo-platform-documentation.scrollhelp.site/collaboration-cycle/Change-history.1768259657.html) on the Platform website.
+
+### Still can't find what you're looking for? Reach out to [#vfs-platform-support](https://dsva.slack.com/archives/CBU0KDSB1) on Slack.
+
+
+------
+
+
 ## Collaboration Cycle - Change Log
 
 
@@ -5,7 +15,7 @@
 - **Design Intent, Midpoint Review, and Staging Review templates updated.** Templates have been updated to reflect that Staging Reviews can only be scheduled on Thursday during the 1:30pm and 2:00pm time slots. Design Intent and Midpoint Review templates have also been updated to reflect that these touchpoints can only be scheduled on Monday, Tuesday, or Friday.
 
 ### June 27, 2021 
-- **Design Intent template and touchpoint and readme updated.** Accessibility specialists will be temporarily removed from Design Intent’s. Accessibility specialists will no longer both support the same Collab Cycle Reviews. The table below has been added to the readme.md file.
+- **Design Intent template and touchpoint and readme updated.** Platform accessibility specialists will be temporarily removed from Design Intent’s. Platform accessibility specialists will no longer both support the same Collab Cycle Reviews. The table below has been added to the readme.md file.
 
 
 | Trevor	  | Noah |

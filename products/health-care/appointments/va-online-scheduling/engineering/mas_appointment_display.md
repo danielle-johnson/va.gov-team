@@ -1,15 +1,15 @@
 # How VAOS displays a MAS v1 appointment
 
-There are a few broad types of appointments that come through MAS.
+The mobile appointment service (MAS) is our current source for VA appointment data, past and present. It collects both appointments from VistA as well as video appointments from TMP and VCM. There is currently a version 2 update in progress that will change the data format returned and also shift the focus of MAS to serving both staff and veteran facing clients. When this happens, veteran facing clients will need to switch to pulling appointments from the new VAOS service appointments endpoint.
 
 ## Determining type
 
-There are four broad types of appointments in MAS:
+There are four broad types of appointments that can come from MAS:
 
 - Video appointments
 - In person VA (VistA) appointments
 - Phone appointments
-- Community care appointments
+- Community care appointments (currently hidden)
 
 This is the logic to detect those types:
 
@@ -20,6 +20,9 @@ This is the logic to detect those types:
 
 General notes:
 - We always prefer using top level properties on `appointment` as opposed to properties on items in `vvsAppointments` or `vdsAppointments`. MAS does some work to pull up properties associated with patients, which is normally what we want to use.
+- It's a bad idea to try to break up the appointments in MAS, when you encountered merged records. The merging logic is there for a reason and staying consistent with MAS's merging means that all clients using MAS are more likely to display appointments similarly.
+- It's also a bad idea to combine other sources of appointments together with MAS, unless you are very sure that there are no duplicates. VAOS does this with community care appointments, because we know that MAS is hiding the VistA records for those appointments. MAS should be the source of truth.
+- On VAOS, if there are multiple entries in vdsAppointments, we use the first one. We may want to switch to sorting these by earliest time, since we've seen one example where a provider VistA record that was 5 minutes after the patient VistA record was listed first
 - `appointment.facilityId` is the `sta3n` id (or VistA site id).
 - `appointment.sta6aid` is the id of the actual appointment location, based on the `facilityId` and `appointment.clinicId`.
 
@@ -41,7 +44,7 @@ Appointments in the future:
 
 Video appointments have their own set of types with different rules. As a shorthand, `vvsAppointment` refers to `appointment.vvsAppointments[0]`.
 
-Video appointments where `vvsAppointment.appointmentKind` is `NO-VA-ID` are not shown.
+Video appointments where `vvsAppointment.appointmentKind` is `NO_VA_ID` are not shown.
 
 - `NO_VA_ID` appointments are for patients who aren't enrolled and won't show up through VAOS
 
@@ -99,7 +102,7 @@ VA device appointments are video appointments where `vvsAppointment.appointmentK
 
 - Label: VA Video Connect using a VA device
   - Under review, since they are not VA Video Connect and this may be misleading
--  Appointment time: `appointment.startDate` or `vvsAppointment.dateTime`.
+- Appointment time: `appointment.startDate` or `vvsAppointment.dateTime`.
   - Date is in ISO format, in UTC
   - Displayed in timezone of facility with id `appointment.facilityId`.
 - Location: Not shown
@@ -164,7 +167,7 @@ These are VistA appointments that have `appointment.phoneOnly` set to true.
 
 ## Community care
 
-These are VistA appointments that have `appointment.communityCare` set to true. This is basically a stub for tracking purposes. They are not returned in MAS and we do not want to show these if possible.
+These are VistA appointments that have `appointment.communityCare` set to true. They are basically a stub for tracking purposes. They are not returned in MAS (that logic is controlled by feature flag), they will not be returned in MAS v2 (CC appointments will come from HSRM directly), and so VAOS has no plans to actually show them in production when using MAS v1.
 
 - Label: Community care
 - Appointment time: `appointment.startDate` or `vvsAppointment.dateTime`.

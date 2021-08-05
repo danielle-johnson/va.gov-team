@@ -3,9 +3,9 @@
 ## Goals	
 The purpose of this research is to get user feedback on new design concepts for surfacing site search and other search tools. We plan to test the following design concepts:
 1. A new search landing page that has links to other search tools (Find a Form, Resources & Support, and Find a VA Location)
-1. A new link on the VA.gov home page near the "top 4" boxes that goes to the new search landing page (or starts a search)
-1. Search in the header goes to the new search landing page
-1. New links on the search results page go to other search tools
+1. A new link on the VA.gov home page near the "top 4" boxes that goes to the new search landing page
+1. Search in the header is a link that goes to the new search landing page
+1. New links at the bottom of the search results page go to other search tools
 
 Research findings (including how many participants clicked on which links) will be used to recommend which of the above design concepts might be helpful to users going forward, before we do more design exploration. The intent is to assess *utility* (was it helpful to users and prevented them from getting stuck?) and *usability* (was it findable and intuitive?) for each of the above design concepts.
 
@@ -20,7 +20,7 @@ Feb 2021](https://github.com/department-of-veterans-affairs/va.gov-team/blob/mas
 1. Do users try using the search tools from links on the landing page?  
 1. What are users' reactions to Search in the header taking them to a landing page?
 1. What are users' reactions to new search link(s) in the "top 4" boxes taking them to a landing page?
-1. Do users try using the search tools from links on the search results page?
+1. Do users try using the search tools from links on the search results page? Did they notice them at the bottom of the page?
 1. Are users able to complete tasks without getting stuck?
 
 ## Hypotheses
@@ -48,6 +48,7 @@ We will conduct remote moderated research sessions via Zoom. Participants will b
 Ask Perigean to recruit 15 Veterans in order to get 8 completed sessions using the following criteria:
 
 ### Must have for participants
+- All are Veterans
 - At least 3 people who plan to use their computer for the session
 - At least 3 people who plan to use their smartphone for the session
 - At least 3 participants over 60

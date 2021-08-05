@@ -21,4 +21,7 @@
 | New vaccine updates for eligibility and safety | 5/10 | 5/10 |
 | Patient advocacy and main content page | | 5/19 |
 | Update on mask policy and vaccines for teens | 5/25 | 5/25 | 6/2 | 6/2 (teen question) | 6/2 (teen question) | | 6/2 (teen question) | 6/8 (teen question) 2 hrs |
-| Survey page | | 6/28 | 6/29 | | | | 7/6 |
+| Survey page Spanish | | 6/28 | 6/29 | | | | 7/6 |
+| Survey page Tagalog | | 7/12 |
+| Delta variant updates | 7/13 | 7/13 | 7/14 | 7/15 | 7/15  | 71/3 | 7/15 |
+| Mask wearing FAQs update | 8/3 | 8/3 | 8/3 | | | 8/3 | |

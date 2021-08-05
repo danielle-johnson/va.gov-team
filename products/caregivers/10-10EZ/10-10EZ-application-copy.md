@@ -2,39 +2,41 @@
 
 Enrollment Application for Health Benefits (VA Form 10-10EZ)
 
-Apply online for VA health care. You may also qualify for vision and dental benefits when you apply.
+VA health care covers care for your physical and mental health. This includes a range of services from checkups to surgeries to home health care. It also includes prescriptions and medical equipment. Apply online now.
+
 
 _(blue box)_
 **Have you applied for VA health care before?**
 
 Sign in to check your application status _(link)_
 
-_(blue box)_
+_(end blue box)_
 
-### Follow these steps to get started:
+### Follow these steps to get started
 
 **1. Check your eligibility**
 
-Make sure you meet our eligibility requirements before you apply.
+Make sure you meet our eligibility requirements for full enrollment before you apply. 
 
-What are the VA health care eligibility requirements?  _(more info)_
+**Note:** We can help connect you with mental health care—no matter your discharge status, service history, or eligibility for VA health care. [Find out how to get mental health care](https://www.va.gov/health-care/health-needs-conditions/mental-health/). 
 
-You may be eligible for VA health care if all of these are true for you:
-- You served in the active military, naval, or air service, **and**
+What are the eligibility requirements to enroll in VA health care? _(more info)_
+
+You may be eligible to enroll in VA health care if all of these statements are true:
+- You served in the active military, naval, or air service (including being called up from the National Guard or Reserve by a federal order), **and**
 - You didn’t receive a dishonorable discharge, **and**
-- You meet at least one of the service requirements
+- You meet at least one of the service requirements for enrollment
 
 You must meet at least one of these service requirements:
-- You served at least 24 months in a row without a break (called continuous), or for your full active-duty  period, **or**
+- You served at least 24 months in a row without a break (called continuous), or for your full active-duty period, **or**
 - You were discharged for a service-connected disability, **or**
 - You were discharged for a hardship or “early out,” **or**
 - You served before September 7, 1980 
 
-If you’re a current or former member of the National Guard or Reserve, both of these must be true for you:
-- You were called to active duty by a federal order, **and**
-- You completed your full active duty period
+**Note:** Time spent on active-duty status for training purposes only doesn’t count toward the service requirements. 
 
-If you had or have active-duty status for training purposes only, you’re not eligible for VA health care.
+[Get instructions on how to apply for a discharge upgrade or correction](https://www.va.gov/discharge-upgrade-instructions/) 
+
 
 _(end more info)_
 
@@ -43,28 +45,30 @@ _(end more info)_
 
 Here’s what you’ll need to apply:
 - **Social Security numbers** for you, your spouse, and your qualified dependents
-- **Your military discharge paper**s (DD214 or other separation documents)
-- **Insurance cards** for all insurance companies that cover you. This includes any coverage provided through a spouse or significant other. This also includes Medicare, private insurance, or insurance from your employer. 
+- **Your military discharge information.** If you sign in to apply, we may be able to fill in this information for you. If you don’t sign in to apply, we’ll ask you to upload a copy of your DD214 or other separation documents.**
+- **Insurance cards** for all health insurance companies that cover you. This includes any coverage that you get through a spouse or significant other. This also includes Medicare, private insurance, or insurance from your employer. 
 
-If you don’t have a service-connected disability, we’ll also ask you for this information:
-- **Gross household income** for the year 2020 for you, your spouse, and your dependents. This includes income from a job and any other sources. Gross household income is your income before taxes and any other deductions.
-- **Your deductible expenses** for the past year. These include certain health care and education costs. These expenses will lower the amount of money we count as your income.
+
+We’ll also ask you for this optional information:
+- **Last year's gross household income** for you, your spouse, and your dependents. This includes income from a job and any other sources. Gross household income is your income before taxes and any other deductions.
+- **Your deductible expenses for the past year.** These include certain health care and education costs. These expenses will lower the amount of money we count as your income.
 
 Why does the VA need this information?  _(more info)_
 
-When you apply for VA health care, we assign you to 1 of 8 priority groups.
-We do this for 2 reasons:
-- To help Veterans who need care right away sign up quickly. For example, we assign Veterans with service-connected disabilities the highest priority. 
-- To make sure we can provide high quality care to all enrolled Veterans. Your priority may affect how much (if anything) you’ll have to pay toward the cost of care.
+When you apply, we review this information:
+- Your service history
+- Your VA disability rating
+- Your income level (and the income level of your spouse or other qualified dependents)
+- Your eligibility for Medicaid, VA disability compensation, and VA pension benefits
 
-We base your priority group on these factors:
-- Your military service history, **and**
-- Your disability rating, **and**
-- Your income level, **and**
-- Whether or not you qualify for Medicaid, **and**
-- Other benefits you may receive (like VA pension benefits)
+We use this information to help us decide these 3 things:
+- What types of VA health care benefits you're eligible for, **and**
+- How soon we enroll you in VA health care, **and**
+- How much (if anything) you’ll have to pay toward the cost of your care
 
-**Note:** We ask for information about other health care insurance you may have only for billing purposes. Having other health insurance doesn’t affect your eligibility for VA health care. 
+We give Veterans with service-connected disabilities the highest priority.
+
+**Note:** We ask about other health insurance for billing only. Having other health insurance doesn’t affect your eligibility for VA health care.
 
 _(end more info)_
 
@@ -74,8 +78,9 @@ We’ll take you through each step of the process. It should take about 30 minut
 
 What happens after I apply?  _(more info)_
 
-We process health care claims within about a week. After we process your claim, we’ll send you a letter in the mail with our decision.
-If more than a week has passed since you submitted your application and you haven’t received your decision letter, please don’t apply again. Call us at 877-222-8387 (TTY: 711). We’re here Monday through Friday, 8:00 a.m. to 8:00 p.m. ET.
+We process health care applications within about a week. We’ll send you a letter in the mail with our decision.
+
+If you don’t receive your decision letter within a week after you apply, please don’t apply again. Call us at 877-222-8387 _(link)_ (TTY: 711)_(link)_. We’re here Monday through Friday, 8:00 a.m. to 8:00 p.m. ET.
 
 _(end more info)_
 
@@ -83,7 +88,8 @@ _(end more info)_
 
 Here's how signing in now helps you:
 - We can fill in some of your information for you to save you time.
-- You can save your work in progress. You'll have 60 days from when you start or make updates to come back and finish your application. 
+- You can save your work in progress. You'll have 60 days from when you start or make updates to your application to come back and finish it. 
+
 
 **Note:** You can sign in after you start your application. But you'll lose any information you already filled in. 
 
@@ -91,20 +97,20 @@ Here's how signing in now helps you:
 
 Start your application without signing in _(link)_
 
-Respondent burden: 30 minutes
+How much time we think you'll need to apply (called respondent burden): **30 minutes**
 
 OMB Control #: 2900-0091
 
 Expiration date: 06/30/2024
 
-Privacy Act Statement (_popup_)
+Privacy Act statement (_popup_)
 
 **Need help?**
-**If you have trouble using this online application,** call our MyVA411 main information line at 800-698-2411 (TTY: 711). We’re here 24/7.
+**If you have trouble using this online application,** call our MyVA411 main information line at 800-698-2411 _(link)_  (TTY: 711) _(link)_. We’re here 24/7.
 
 **If you need help to gather your information or fill out your application/form,** [contact a local Veterans Service Organization (VSO)](https://www.va.gov/vso/).
 
-**If you have questions about VA health care**, call our Health Resource Center at 877-222-8387 (TTY: 711). We’re here Monday through Friday, 8:00 a.m. to 8:00 p.m. ET.
+**If you have questions about VA health care**, call our Health Resource Center at 877-222-8387 _(link)_  (TTY: 711) _(link)_ . We’re here Monday through Friday, 8:00 a.m. to 8:00 p.m. ET.
 
 ## We need some information before you can start your application
 This will help us fit the application to your specific needs. Please fill out the form below. Then we’ll take you to the VA health care application (10-10EZ).

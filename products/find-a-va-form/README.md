@@ -26,6 +26,7 @@ This is the folder for all background, historical, discovery, and status documen
    - [Drupal CMS Migration Documentation](#Drupal-CMS-Forms-Migration-Documentation)
    - [Content Flow Diagram](#Content-Flow-Diagram)
    - [Detail Page Content Architecture Diagram](#Detail-Page-Content-Architecture-Diagram)
+- [Troubleshooting](#troubleshooting)
 - [Status and decisions](#status-and-decisions)
 
 ## Incident Response
@@ -79,7 +80,7 @@ __VA forms stakeholder working group includes:__
 - Smith, Gail T. (VACO) <gail.smith@va.gov>; 
 
 ### VA Forms Contacts
-![image](https://user-images.githubusercontent.com/73354907/120379482-d0bcbd80-c2ed-11eb-9d70-9cf7ab7dda47.png)
+![image](https://user-images.githubusercontent.com/73354907/127664782-8a613a86-80bb-480a-ba5a-b9cc2904fb44.png)
 
 ## Problem Statement 
 Search research indicates that the VA forms page consistently gets high organic search traffic. However it has almost no or very little conversion value. Because this page already gets high organic traffic and has high potential to provide better conversion:
@@ -188,6 +189,15 @@ https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/produc
 
 ### Detail Page Content Architecture Diagram
 [Whimsical diagram - form detail page content architecture](https://whimsical.com/forms-detail-page-content-architecture-Bn5zRk2PDzuSjpu1d5q4Pu)
+
+# Troubleshooting
+- Compare versions in CMS (to see if/when form names were changed in VA DB): https://dsva.slack.com/archives/CUB5X5MGF/p1626366090043000
+- Time lag between VA Form changes & when updated on Find a VA Form:
+   - Find a Form search page PDF link will update immediately.  
+   - Detail page updates only after the merge runs over night, AND after the next day's 9 AM CMS publish
+   - Also see this Slack thread for more details on timing: https://dsva.slack.com/archives/CUB5X5MGF/p1623794210193400
+![image](https://user-images.githubusercontent.com/73354907/125852399-af89f562-4ea3-4fe4-80fe-2d524eff2e45.png)
+
 
 ------
 ## Status and decisions:

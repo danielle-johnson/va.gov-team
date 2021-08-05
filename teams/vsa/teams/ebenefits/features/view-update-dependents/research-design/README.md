@@ -11,6 +11,28 @@
 
 [Pre-launch Add Dependents/686 Punchlist](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/teams/vsa/teams/ebenefits/features/view-update-dependents/research-design/text-revisions/686-punch-list-0720.md)
 
+[Midpoint review View Dependents Changelog/Punchlist ticket](https://app.zenhub.com/workspaces/vft-59c95ae5fda7577a9b3184f8/issues/department-of-veterans-affairs/va.gov-team/27634)
+
+### View Dependents Mockups Changelog
+
+**July 20, 2021**
+- **Mockups are reverting to old tool layou** to align with page in VA staging
+- Many of these are fit-and-finish corrections per design intent feedback that were not addressed
+- Dependency Verification modal: Move primary "Change dependents button" to the left
+- Dependency Verification modal: Remove bolding from "Relationship"
+- Change breadcrumb to match H1 ("Your VA dependents")
+- Use correct style for lead-in/subhead copy ("Below is a list of dependents...")
+- Reduce whitespace between green button and H2
+- Change font for dependents names in cards to Bitter
+- Confirm mask/no masking on SSN in cards
+- Remove bolding from relationship, SSN and DOB in the cards
+- Change styling of "No dependents..." message at bottom to gray box (mockup)
+- Change heading of first section in the right sidebar to "When should I notify VA about dependents on my benefits?"
+- Add space in first section, first paragraph: "...status. Changes..."
+- Add link to bottom of first section in right sidebar: "Find out more about dependents and your benefits" (https://www.va.gov/disability/add-remove-dependent/)
+- Change text link from "Get help filing a claim" to "Get help filing your claim or appeal"
+- Increase padding/margin between last item and the footer
+
 ---
 
 #### View Dependents
@@ -19,6 +41,7 @@
 | :--- | :--- | :--- |
 | View Dependents | [XD Mockups](https://xd.adobe.com/view/8cdfe895-c907-4662-7234-305056778b2a-faee/) | Get text from mock |
 | View Dependents V2 <br> (New tool page layout) | [XD Mockups](https://xd.adobe.com/view/d390050f-bc57-4550-a139-a57642c89f8c-86c3/) | Concept layout |
+| View Dependents <br> (Back to OLD tool page layout) | [XD Mockups](https://xd.adobe.com/view/659d31d9-4d54-4400-ad7b-25bbe62ef212-30ce/) | Midpoint review layout 
 
 #### Add Dependents (21-686c/21-674)
 
@@ -82,6 +105,8 @@
 [View Dependents preliminary screen layouts](https://xd.adobe.com/view/fd970f62-8f56-4b24-5bc2-4d9f168715b2-8ba6/)
 
 [View Dependents current screen content/layout](https://xd.adobe.com/view/8cdfe895-c907-4662-7234-305056778b2a-faee/)
+
+[View Dependents midpoint review screen layouts](https://xd.adobe.com/view/659d31d9-4d54-4400-ad7b-25bbe62ef212-30ce/)
 
 #### Add Dependents (21-686c/21-674)
 [21-686c/21-674 preliminary screen layouts](https://xd.adobe.com/view/ffffe536-2ba5-47c6-4c4b-ac1679179973-89ce/)

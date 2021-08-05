@@ -26,6 +26,75 @@ None
 </summary>
 
 </details>
+
+## Wednesday, August 4, 2021
+
+### Key Grooming Factors:
+1. Breakdown User Stories into smaller tasks.
+2. Assign estimates and confirm team members are on the same page.
+3. Determine / Validate definition of DONE. 
+
+
+- [ ] Video Links on HP from VA Working Group [#28193](https://github.com/department-of-veterans-affairs/va.gov-team/issues/28193)
+- [ ] Mission Act website shut down/redirect strategy (Target Date Sept 30, 2021) [#25989](https://github.com/department-of-veterans-affairs/va.gov-team/issues/25989)
+- [ ] [Campaign Landing Page Production Launch]- Veterans Experience Action Center [#27515](https://github.com/department-of-veterans-affairs/va.gov-team/issues/27515)
+- [ ] Sitewide, Design system, CMS [AXE-CORE, SCREENREADER]: Heading levels SHOULD increase by one - the alert box heading breaks order [#6375](https://github.com/department-of-veterans-affairs/va.gov-team/issues/6375) 
+- [ ] Explore Closed Caption Transcripts for Campaign Landing Pages (508/a11y Recommendation) [#19082](https://github.com/department-of-veterans-affairs/va.gov-team/issues/19082) 
+- [ ] 508-defect-2 [COGNITION] Videos should have captions and a link to transcript of [#21020](https://github.com/department-of-veterans-affairs/va.gov-team/issues/21020) 
+- [ ] Clean up the widget pattern in the "static-pages" code [#7751](https://github.com/department-of-veterans-affairs/va.gov-team/issues/7751) 
+- [ ] 1x Test account on a non-production env for Cerner Facilities [#21238](https://github.com/department-of-veterans-affairs/va.gov-team/issues/21238)
+- [ ] [COGNITION]: Disability Calculator - Can we mention the expected data format in on-page instructions? [#1045](https://github.com/department-of-veterans-affairs/va.gov-team/issues/1045) 
+- [ ] 508-defect-1 ❗[SCREENREADER]: Some non-English links have the lang="en" attribute [#27619](https://github.com/department-of-veterans-affairs/va.gov-team/issues/27619) 
+
+### Future Work Grooming: 
+New Mobile Header - [Product Ouline](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/public-websites/home-page/new-mobile-header/product-outline.md)
+
+### Icebox Items (Relevancy - Delete)
+- [ ] Use a cta-widget or similar embedded component for links to eBenefits [#9020](https://github.com/department-of-veterans-affairs/va.gov-team/issues/9020) 
+- [ ] Related Links missing across VA.gov [#13501](https://github.com/department-of-veterans-affairs/va.gov-team/issues/13501) 
+
+### Clarity Requests: 
+- @team - None this session.  Please add these ahead of the grooming session in support, would like to review and discuss as a team while in session.  
+
+### Dad Joke: Why is the ocean always blue? [Answer](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/teams/vsa/teams/public-websites/Grooming.md#dad-joke-answers)
+
+<details><summary>Past Grooming Sessions</summary>
+
+
+## Wednesday, July 21, 2021
+
+### Key Grooming Factors:
+1. Breakdown User Stories into smaller tasks.
+2. Assign estimates and confirm team members are on the same page.
+3. Determine / Validate definition of DONE. 
+
+- [ ] Banner Alerts Overview @John
+- [ ] Mission Act website shut down/redirect strategy (Target Date Sept 30, 2021) [#25989](https://github.com/department-of-veterans-affairs/va.gov-team/issues/25989)
+- [ ] CLP Pride Sunset --> What's the sunset Strategy? Do we need a ticket?  When do we want to work this?
+- [ ] June Home Page Link Requests from VA [#26276](https://github.com/department-of-veterans-affairs/va.gov-team/issues/26276)
+- [ ] Accessibility Feedback for Staging Review | Language Assistance and Resources | [#25592](https://github.com/department-of-veterans-affairs/va.gov-team/issues/25592)
+- [ ] Explore and revisit Visual Regression Testing to aid in modifications to CMS templates and style [#18869](https://github.com/department-of-veterans-affairs/va.gov-team/issues/18869)
+- [ ] 508-defect-2, sitewide [FOCUS]: Mobile menu loses focus when expanded and collapsed [#25661](https://github.com/department-of-veterans-affairs/va.gov-team/issues/25661) 
+- [ ] Pagination: Improve usage [#5962](https://github.com/department-of-veterans-affairs/va.gov-team/issues/5962) 
+- [ ] Replace straight quotes with curly quotes in content (not code) [#27473](https://github.com/department-of-veterans-affairs/va.gov-team/issues/27473)
+- [ ] [Campaign Landing Page Production Launch]- Veterans Experience Action Center [#27515](https://github.com/department-of-veterans-affairs/va.gov-team/issues/27515) 
+- [ ] CMS - 508-defect-2 Fast Follow! [COGNITION]: PDF download links MUST follow the established pattern [#14614](https://github.com/department-of-veterans-affairs/va.gov-team/issues/14614)
+- [ ] 508-defect-2 [FOCUS]: Back to top button's focus halo MUST be visible on Safari [#25001](https://github.com/department-of-veterans-affairs/va.gov-team/issues/25001)
+- [ ] Back to top component is not displayed in IE-11 [#25103](https://github.com/department-of-veterans-affairs/va.gov-team/issues/25103)
+- [ ] 508-defect-3 [SCREENREADER]: On this page list should be announced as a list on VoiceOver [#25005](https://github.com/department-of-veterans-affairs/va.gov-team/issues/25005) 
+- [ ] Refactor metatag templates to a single easy-to-read template.[#27678](https://github.com/department-of-veterans-affairs/va.gov-team/issues/27678)
+
+### Icebox Items (Relevancy - Delete)
+- [ ] [Blocked] Allow dismissible homepage banners in PROD [#7098](https://github.com/department-of-veterans-affairs/va.gov-team/issues/7098)
+- [ ] Bug: Wrong font color in intro text discharge upgrade tool page [#15267](https://github.com/department-of-veterans-affairs/va.gov-team/issues/15267)
+
+### Team Clarity Requests: (Call out tickets)
+
+### Dad Joke:  
+Why did the Scarecrow win an award?  [Answer](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/teams/vsa/teams/public-websites/Grooming.md#dad-joke-answers)
+
+
+
 ## Wednesday, June 23, 2021
 
 ### Key Grooming Factors:
@@ -582,4 +651,6 @@ Notes/Next Steps:
 - @team - None this session.  Please add these ahead of the grooming session in support, would like to review and discuss as a team while in session.  
 
 ### Dad Joke Answers: 
-The stock market.
+Becuase the ocean never waves back.
+
+</details>

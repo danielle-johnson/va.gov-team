@@ -482,7 +482,7 @@ Learn more about:
 ### Additional Resources
 - IF (Q4 = 1) [Army Review Boards Agency](http://arba.army.pentagon.mil/)
 - IF (Q4 = 1, 3, or 4 = & Board = DRB) [Army Discharge Review Board](http://arba.army.pentagon.mil/adrb-overview.html) 
-- IF (Q4 = 1 & Board = BCMR) [Army Board for Correction of Military Records](www.arba.army.pentagon.mil/abcmr-overview.html)
+- IF (Q4 = 1 & Board = BCMR) [Army Board for Correction of Military Records](https://afrba-portal.cce.af.mil/#portal)
 - IF Q4 = 2, or 5 = [Naval Discharge Review Board](http://www.secnav.navy.mil/mra/CORB/pages/ndrb/default.aspx)
 - IF (Q4 = 3 & Board = BCMR) [Air Force Board for Correction of Military Records](http://www.afpc.af.mil/Board-for-Correction-of-Military-Records/)
 - IF (Q4 = 4 & Board = BCMR) [Coast Guard Board for Correction of Military Records](https://www.uscg.mil/Resources/legal/BCMR/)
@@ -543,9 +543,9 @@ if (DRB) {
   } elseif (Air Force) {
   	Board for Correction of Military Records (BCMR)
 	Address:
-	Board for Correction of Air Force Records
-	SAF/MRBR 550-c Street West, Suite 40
-	Randolph AFB, TX 78150-4742
+	Air Force Board for Correction of Military Records
+	SAF/MRBR 3351 Celmers Lane,
+	Joint Base Andrews NAF Washington 20762-6604
 	
   } elseif (Army) {
 	Address:
@@ -557,9 +557,9 @@ if (DRB) {
   	Address:
 	Department of Homeland Security
 	Office of the General Counsel
-	Board for Correction of Military Records
-	245 Murray Lane, Stop 0485
-	Washington, DC 20528-0485
+	Board for Correction of Military Records, Stop 0485
+	2707 Martin Luther King Jr. Ave., SE
+	Washington, DC 20528
   }
 }
 ```	

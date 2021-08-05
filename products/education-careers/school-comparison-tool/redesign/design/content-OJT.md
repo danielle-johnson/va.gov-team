@@ -159,7 +159,13 @@ Update benefits {Update button - deactivated until selection has been made}
 
 **Housing allowance: $NNNN / mo**
 
-**Book stipend: $NN / mo**
+**Book stipend ([Learn more]): $NN / mo**
+
+    { Book stipend modal, Learn more aria label: "Learn more about the book stipend" }
+
+    You may be eligible for money to cover books and supplies, up to $83 per month.
+
+    { end Book stipend modal }
 
 ________________________________
 
@@ -188,25 +194,10 @@ Months 13-18: $XXX/mo
 
 Months 19-24: $XXX/mo
 
-#### Book stipend ([Learn more]())
-
-    { Book stipend modal, Learn more aria label: "Learn more about the book stipend" }
-
-    You may be eligible to receive a stipend of up to $1000 for books and supplies. The book stipend is pro-rated based on your enrollment.
-
-    { end Book stipend modal }
-
-Months 1-6:  $XX/mo
-
-Months 7-12: $XX/mo
-
-Months 13-18: $XX/mo
-
-Months 19-24: $XX/mo
 
 { end grey box for Estimated benefits }
 
-**Note:** Housing rate and the amount of entitlement used decrease every 6 months as employer pay increases ([Learn more](https://www.va.gov/education/about-gi-bill-benefits/how-to-use-benefits/on-the-job-training-apprenticeships/))
+**Note:** Housing rate and the amount of entitlement used decrease every 6 months as training progresses 
 
 ## Getting started with benefits
 

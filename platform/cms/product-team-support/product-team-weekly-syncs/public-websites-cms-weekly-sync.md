@@ -35,12 +35,100 @@
 
 </details>
 
+## August 11
+
+Banner path / scope
+
+## August 4 
+
+Banners for Sept 1
+ * New banner content type
+ * **CMS** 
+   * Get Entity ID to hardcode against
+   * New field: dismissible with default as TRUE
+   * Change alert body limit to 300 character soft limit, 500 character hard limit, not including HTML (not 1000)
+   * 2nd half of august: Knowledge Base article(s) 
+   * Change management and adoption in September
+ * **Public websites** 
+   * to track dismisses of alerts
+
+
+Og:image
+* CMS provides only the path for og:images, but not the hostURL (www.va.gov) 
+
+CLP
+* Tim H and Katie working on a new one 
+* Pride is staying up, not being retired and redirected
+* Trust CLP staying up for now, still being promoted
+* John reviewing Jane's KB articles, slidedeck for training
+
+
+## July 28
+
+* Pride CLP archive/redirect details
+  * Short term / long term strategies
+  * No burning need to take down
+  * Possibilities laid out by Mikki (what's easiest, what's smart, what's a good user experience, what provides the most SEO value):
+    * Don't take it down, update content to summarize event. Show VA's position on the topic, and prompt for the next year.  The vanity URL and CLP do not need to be retired, traffic can still hit the page. 
+    * Take it down, use temporary redirects in order to resurrect next year
+    * Take the page down, use the year/date in the canonical URLs going forward so we can fully retire it each year.  I'd prefer not to do that with the vanity URLs, however.
+    * Future direction...we could use a different canonical URL structure for events (i.e. va.gov/events/mental-health-awareness-month) and identify a strategy specific to events versus general campaigns, because events are a bit different.
+      * Suggestion to redirect under events
+      * Jen Lee was a strong proponent to let them die
+      * Possible seasonal CLPs
+      * When Mikki returns, John and Brian to sync and orchestrate the change. Will recommend using a different canonical URL structure
+* Homepage banner questions
+  * PW would like to address in the next month if possible
+  * Biggest risk = if someone publishes the alert and something beyond CMS control blocks content release, no current mechanism to notify people
+  * John to explore with OCTO-DE on whether they want to support off-hours activity
+  * GovDelivery messages doesn't go out if content doesn't go out. does that need to be revisited?
+* CLP training requirements
+  * All Users, Editorial workflow
+  * Partner with an existing person or with John
+  * CLP specific training being worked on
+* Outreach Hub training requirements
+  * All Users, Events training
+
+[kevin out]
+
+## July 21
+
+* CLP governance
+  * notes: https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/content/tier-2-content-IA-and-design/campaign-landing-page-templates/governance-model/read-me.md
+  * getting closer to self-service model
+  * what is the business process to archive, redirect, un-archive, un-redirect, etc. 
+  * [How to clone documentation](https://prod.cms.va.gov/help/campaign-landing-pages/clone-a-campaign-landing-page) 
+* Homepage banner
+  * John has completed a [product brief](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/products/public-websites/home-page-banner/product-outline.md) based on experience from July 3
+    * Short term: Need to make sure the existing process is shored up and not 
+    * Long term: CMS
+* Events
+  * John will take on events product brief in a similar way to Homepage banner.
+* Metatags
+  * Current sprint: fix `og:image` for CLP and fix `<title>` 9 other content types.
+  * Later: more fine-grained audit and metatag planning for all 30 contentt ypes.
+* #18151 TTY phone numbers in right rail of Hub landing pages.
+* CMS account admin policies for CLP and Outreach Hub
+* FYSA: Kevin out much of next week including July 28 
+
 ## July 14
 
-* Banners
-* CMS account admin policy review
-* CLP governance updates
-* Events 
+* CLP governance
+  * Web governance board meeting tomorrow, John is presenting two options for governance. 
+    * 1. Each VACO/HQ would "self-govern" CLPs for their businesses
+    * 2. Web governance board would approve use, and spread awareness 
+  * CLP request form would still be used for awareness.
+  * Content admin will still need to clone CLPs after request is received. PW will take 
+    * CMS team will document CLP cloning for Content Admins in Knowledge Base article https://github.com/department-of-veterans-affairs/va.gov-cms/issues/5857
+* Meta tags https://pr5828-wrb1q983pfwgqw6ixqwofsjszpwdosrp.ci.cms.va.gov/ 
+  * Check if og:image has a value before including it in the page template? 
+  * FE vs CMS spec 
+  * Kelson: 
+    * There's a content-build PR to affect all non-VAMC og:title
+    * For VAMC: 
+* #18151 TTY phone numbers in right rail of Hub landing pages.
+
+
 
 ## July 7
 

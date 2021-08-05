@@ -16,14 +16,41 @@
 <details>
   <summary>Parking lot</summary>
   
-  ## Action Items:
-  * Dave to send CAP workflow to CMS and Lighthouse teams (waiting on Michelle to review) - no update as of 4/12
-  * Lighthouse to investigate pushing of services in bulk. (+11,000 if doing a bulk push of one service at a time, not an immediate need) - no update as of 4/12
+  ## Open Action Items:
   * Pushing Vet Center CAP would need a new push endpoint or a new nightly sync from Lighthouse. - will need to be prioritized
   * Detailed services returning an empty list rather than a null statement. Any next steps? From a data integrity standpoint a non-issue but Adam would like to go back and clean-up at some point.
     * Noticing automated schema tests not happy so looking to prioritize at some point
-
+  * From 5/10/21 - When a Vet Center editor archives a Vet Center CAP, CMS will keep the data in archived (unpublished) form. Related questions: 
+    * CMS will push this content update to Lighthouse.
+    * CMS issue for content lifecycle documentation for CAPs, including Lighthouse dependencies.
+    * CMS to mockup what the push fo CAPs to LH will look like
+  * From 7/12/21 - LH will need a list of name strings to be sent in order to map service name to internal service name; CMS will need to iron out naming convention in order to send** (also research what's the right path for the data)
+ 
 </details>
+
+## Monday, August 2, 2021
+* How to uniquely identify the health services objects
+  * LH to go through UX to validate whether to use machine name or non-sensical ID or a list that LH owns (what makes sense for different consumers)
+  * Will then need to add unique identifier into payload from CMS
+
+## Monday, July 19, 2021
+* Clarification on workflow for VAMC user data request changes for facilities
+  * Current process is to email api@va.gov (LH customer support team)
+  * Suggestion to reroute users to VSSC = VAST
+  * LH wants to own any data that flows through it
+  * VAST data entries take an approved editor
+  * VAST data changes take a while so encourage/remind VHA Digital Media to send requests in as early as possible (can take weeks)
+    * Dave C to leverage "Did You Know?" type announcements to remind
+* CMS health services
+  * LH to discuss internally how to handle services
+  * LH requesting a list of service names to be able to start stress testing (current names as they are) = can be found here:  https://prod.cms.va.gov/vha-health-services/export, doesn't have unique ID which we'll probably want to leverage as unique ID
+    * Need to account for these changing (e.g. LGBT to LGBTQ+) as well as new
+    * Q: is there a static record of these services?
+    * A: in the CMS there's a "term_ID" which might be possible to use as a unique identifier (also, "Health Service API ID" is currently visible at https://prod.cms.va.gov/vha-health-services)
+    * Would it possible to align LH UX and CMS UX on taxonomy? (let's target for after LH has a chance to review the list)
+* VC CAP data
+  * Waiting on how we determine lat/long that Dave is currently tracking down
+  * LH looking for confirmation that CMS push approach is viable. A: yes, will take about a sprint for CMS to set up (doesn't include testing)
 
 ## Monday July 12, 2021
 * CMS health services
@@ -46,7 +73,6 @@
 * What happens when a new facility/system gets created?
   * Currently the CMS doesn't assign a VISN, will need to be manually assigned
   * This is because there is no source for that info
-
 
 ## Monday June 28, 2021
 * How LH's API should get data for CMS health services

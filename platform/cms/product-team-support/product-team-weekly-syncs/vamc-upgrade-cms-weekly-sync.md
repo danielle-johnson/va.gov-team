@@ -21,9 +21,85 @@
 
 </details>
 
+## August 6
+
+* Schedule for removing endpoints for full prod launches
+* Syncing on guidance for Programs page, specifically in regards to disabling menu links / overusing health services / lift and shift vs. Marie Kondo. context [here](https://dsva.slack.com/archives/C02686M6K6X/p1628009571010300)
+* system health service library source code for general taxonomy - mentioned in office hours and help desk needs to know how to support
+
+## July 30
+
+* VAMC editors support
+  * Prod launches coming quickly so more issues are raised
+  * 2nd weekly office hours starting in August, with some focus on Plain Language, Style guide, and where there may be additional training
+  * VAMC upgrade team ramping up the self-service campaign
+* Health service migrations
+  * No Lovell FHCC for now, waiting on final name
+  * Low lift once naming decision is made, just edit the CSVs that are already in codebase
+* LGBTQ+
+  * Detail pages getting updated
+  * Other language changes 
+* Walla Walla 
+  * CMS team creates menu first week of August and delete the old one
+* Upcoming VAMC launches
+  * Stan sending list for August 
+* Operating status permissions etc
+
+## July 23
+
+VAMC launches
+ * Butler, Syracuse, OK city, New Jersey, SLC.
+ * CMS team to create a remove endpoint PR for Butler
+ * Stan can provide list for first two weeks of August. 
+
+VAMC editor support 
+* Staffing changes
+* High touch users
+* Office hours every Tuesday, and pushing to twice a week in August. There were 70 last week.
+* PAO newsletter 
+  * will remind them about office hours, and ask a review of VAMC facility data
+  * knowledge base announcement (August 2?)
+* Menu governance change requests workflow
+  * Disabled menu items
+  * Health services detail page requests
+* [Knowledge Base article](https://prod.cms.va.gov/help/vamc/how-to-manage-vamc-menus)
+  * VAMC upgrade team can work with Steve T on language
+
+Migrations
+ * Walla Walla: CMS Section and URL alias menu machine name are wallawalla, but everything should be two words, walla walla
+   * Facilities team robots.txt 
+   * CMS team to create new va-walla-walla-health-care menu
+   * CMS team can rename Section
+   * VAMC upgrade team will need to recreate menu items
+   * CMS team to create CMS Knowledge Base article when VAMC name changes, what needs to happen, based on issue Steve created 
+ * FH Lovell
+   * Remove from migration until this is settled.
+   * Dave will work with VHA on name.
+ * Hopefully wrapped today and QA can start Monday or Tuesday.
+
+Knowledge Base
+
+Operating status
+* changes incoming, more next week.
+
+
+
+## July 16
+  * Health services migration of remaining 6 VISNs. Proposed timeline: 
+    * VAMC upgrade team A-Z mapping done by July 20 EOD
+    * CMS team igrated to prod by July 30.  
+  * Menu governance lockdown for VAMC detail pages ready to go
+    * Announcement from VHA on hold unless we see a ton of help desk issues 
+    * [Knowledge Base Article: How to manage VAMC menus](https://prod.cms.va.gov/help/va-medical-centers-vamcs/how-to-manage-vamc-menus)
+    * [Status of eligible parent items](https://docs.google.com/spreadsheets/d/1XBUNWffdo8jCYGYq7FZtN4Ro268lkzYOqlsFZS4A1j0/edit?usp=sharing)
+    * PAOs cannot enable their menu item. What is the current workflow for creating these pages, and what should it be?
+  * Discuss va- randomness in Health Service import, is current resolution path acceptable?
+  * What to do about Lovell now that it's (maybe?) in VAST
+  * Account admin prototype
+  
+
 ## July 9 
 
- * What to do about Lovell now that it's (maybe?) in VAST
 
 ## July 2
 

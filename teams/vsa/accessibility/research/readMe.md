@@ -12,14 +12,14 @@ By stewarding inclusive research at the VA, we can:
 - Uncover and remedy the exclusion of underserved Veteran communities who may have the greatest need for benefits.
 - Create more awareness and conversation around underserved Veteran communities across all VA.gov teams.
 
-## Introduction (WIP)
+## [Introduction](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/teams/vsa/accessibility/research/introduction.md)
 - Setting inclusive goals
 - Underserved Veteran communities
 - Roadmap for new guidelines
 
-## Documents Tools and Methods (WIP)
+## [Documents, Tools, and Methods](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/teams/vsa/accessibility/research/documents-tools-and-methods.md)
 - Document and tools, current state and recommendations
-- Inclusive methods
+- Inclusive methods (WIP)
 
 ## [Inclusive Recruitment Strategies](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/teams/vsa/accessibility/research/recruitment.md)
 - 5 participants aren’t enough
@@ -47,7 +47,7 @@ By stewarding inclusive research at the VA, we can:
 - Voice recognition (WIP)
 - Braille readers (WIP)
 
-## Communicating and Documenting Risk (WIP)
+## [Communicating and Documenting Risk](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/teams/vsa/accessibility/research/risk-documentation.md)
 - Why document risk?
 - Tracking and reporting gaps in recruitment
 - Absence of assistive technology in usability testing
@@ -67,12 +67,13 @@ By stewarding inclusive research at the VA, we can:
 ### Contributors
 Thank you to the following individuals who contributed to these guidelines:
 - Joshua Kim
-- Angela Fowler
 - Jennifer Strickland
+- Angela Fowler
 - Maria Vidart
 - Shawna Hein
 - Emily Mann
 - Meli Manak
 - Trevor Pierce
- -Martha Wilkes
+- Martha Wilkes
+- Cindy Merrill
 

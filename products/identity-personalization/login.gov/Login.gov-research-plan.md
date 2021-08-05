@@ -19,9 +19,7 @@ We will be attempting to answer some (not all) of the below research questions, 
 9. What trust issues should we consider as it relates to the current credential options?
 10. What are the potential trust issues with login.gov?
 11. What are the pain points with identity proofing? 
-## Metrics
-1. Metrics - What accounts are vets currently using to log in to va.gov?
-2. Metrics - How many veterans have login.gov accounts? 	
+ 	
 ## Hypothesis
 1. What is your hypothesis for this research?
   - We believe that by narrowing down the VA.gov sign in options to two providers, will lead to less frustrating login experience and fewer abandoned sessions. 	 	
@@ -36,6 +34,7 @@ We will be attempting to answer some (not all) of the below research questions, 
 4. What will you be testing? (Design mocks, card sort, prototype, page, content, etc.)
   - VA.gov sign-in modal
   - Design mocks with addition/removal of Login.gov button	
+  - Screen after sign-on where we invite them to create a Login.gov account
 ## Participants and Recruitment	
 1.	Participant criteria: What are you looking for in a participant?
 (Mention: Number of people, ages, accessibility preferences, geographical diversity, login requirements, VA benefit requirements, familiarity with technology, etc. Keep in mind, the more requirements, the more difficult the recruit, so give ample time to ensure the right participant mix.)
@@ -43,13 +42,12 @@ We will be attempting to answer some (not all) of the below research questions, 
 
 Please list your participant criteria in two categories-
 1. **Primary criteria / Must have**
-  - Participants that primarily log in through VA.gov
-  - At least one participant from DSLogon, MHV, ID.Me
-  - At least one participant from MHV
-  - At least one participant from ID.Me
-  - At least one participant who has logged in to send a secure message or
-  - At least one participant who has logged in to track a claim status or
-  - At least one participant who has logged in to change direct deposit
+- At least three participants from DSLogon, MHV, ID.Me
+- At least one participant that uses primarily mobile to access VA.gov via mobile browser
+- At least half of participants who have logged in and:
+  - Sent a secure message OR
+  - Tracked claim status OR
+  - Changed direct deposit
 
 2. **Secondary criteria / Would like to have** - what other criteria would strengthen your results?
   - At least one person under the age of 30, and at least one person over the age of 55
@@ -66,15 +64,15 @@ What is your recruitment strategy?
 
 ## When? 	
 1. Timeline: What dates do you plan to do research? 
-  - July 27th: 11:00am - 3:30pm, 5:00-8pm EST
-  - July 28th: 11:00am - 2:30pm, 5:00-8pm EST
-  - July 29th: 11:00am - 3:30pm, 5:00-8pm EST
+  - August 2nd: 11:00am - 2:30pm, 5:00-8pm EST
+  - August 3rd: 11:00am - 3:30pm, 5:00-8pm EST
+  - August 4th: 11:00am - 3:30pm, 5:00-8pm EST
 2. Prepare: When will the thing you are testing be ready? 
-  - July 23rd- Interveiwing participants on both live (VA.gov) site and mockups
+  - July 29th- Interveiwing participants on both live (VA.gov) site and mockups
 3. Length of Sessions: 
   - 60 mins, with 15 mins in between each session 
 4. Pilot: Please indicate a date before your sessions begin for piloting your research. Which member of the design team will you pilot your research with?
-  - July 26th, 3:30pm EST
+  - July 30th, 3:30pm EST
     -  Naomi Marcussen
     - Christine Dillman
 ## Team Roles	
@@ -88,11 +86,15 @@ Please list the people who will be serving in each role. **Include the primary p
   - Observers: 
     - Cory Trimm
     - John Rahaghi
+    - Cody Reinold 
     - Christine Dillman
     - Joe Niquette
     - Trevor Bosaw
     - Alex Garcia
     - John Bramley
+    -  Ashley Matthews
+    -  Bridget Hapner
+    -  Jen Ecker
 
 **List email addresses for those who should attend and observe the sessions: VA Stakeholders, engineering team members, design team members, any other people who might find this research relevant to their work**	
 ## Resources	

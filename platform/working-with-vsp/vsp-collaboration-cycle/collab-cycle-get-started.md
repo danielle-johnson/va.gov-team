@@ -1,3 +1,12 @@
+
+# We're moving our docs! 
+### You can find [the latest version of this page](https://depo-platform-documentation.scrollhelp.site/collaboration-cycle/Getting-started.1760493650.html) on the Platform website.
+
+### Still can't find what you're looking for? Reach out to [#vfs-platform-support](https://dsva.slack.com/archives/CBU0KDSB1) on Slack.
+
+
+------
+
 # Getting started with the Collaboration Cycle 
 Before engaging with the Collaboration Cycle, please review the guidance and questions below to help Platform determine what level of support, which practice areas, and which touchpoints are needed for your work. If you don’t know the answer to a question, then it’s too early for you to engage with the Collaboration Cycle.
 
@@ -76,7 +85,7 @@ Examples of **changes to url, navigation, or entry points** include:
  - Moving an online tool or content page within the site or needing to retire/redirect a page
  - Modifying options within core navigation elements (for example, top nav, left nav, home page)
 
-### 9. Does your product/feature have Google Analytics tracking ~and a KPI dashboard in Domo~?
+### 9. Does your product/feature have Google Analytics tracking and a KPI dashboard in Domo?
 ### 10. If yes, do you need to capture any other analytics or metrics in addition to what you're currently tracking?
 
 We ask these questions to determine if Analytics will need to be involved in your Collaboration Cycle reviews, and if an Analytics Request is necessary.
